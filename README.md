@@ -69,7 +69,7 @@ npx hardhat init
     $ sudo vi Token.sol
     ```
 - Write your contract in the file you just created.
-   
+   Token.sol(write above)
 
 ### Compiling contracts
 
