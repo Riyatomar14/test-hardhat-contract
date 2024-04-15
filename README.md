@@ -67,7 +67,7 @@ npx hardhat init
     $ touch contracts/Token.sol
     ```
 - Write your contract in the file you just created.
-    - [Sample contract](contracts/Token.sol)
+    
 
 ### Compiling contracts
 
@@ -86,7 +86,7 @@ npx hardhat init
     $ touch test/Token.js
     ```
 - Write your tests in the file you just created.
-    - [Sample test](test/Token.js)
+    
 
 ### Running tests
 
@@ -101,4 +101,5 @@ npx hardhat init
 ## Deploying contracts to live network
 
 - To deploy your contracts to a live network, you need to create a new network in the `hardhat.config.js` file.
-    - [Sample hardhat.config.js](hardhat.config.js)
+   sample you take
+  
