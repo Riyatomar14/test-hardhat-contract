@@ -55,7 +55,8 @@ npx hardhat init
     ```
     - which will look like this
 
-      
+  ![image](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/42c97fb4-d9e1-453e-9735-4ddb4a212239)
+
 
 ## Writing and compiling contracts
 
