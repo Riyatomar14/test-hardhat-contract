@@ -53,9 +53,9 @@ npx hardhat init
     ```javascript
     require("@nomicfoundation/hardhat-toolbox");
     ```
-    - wchich will look like this
+    - which will look like this
 
-        ![alt text](image.png)
+      
 
 ## Writing and compiling contracts
 
@@ -96,7 +96,7 @@ npx hardhat init
     ```
     - which will look like this
 
-        ![alt text](image-2.png)
+     
     
 ## Deploying contracts to live network
 
