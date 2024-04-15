@@ -84,12 +84,28 @@ npx hardhat init
 
 ### Writing tests
 
-- Create a new test file in the `test/` directory
+* Create a new directory called ``` test ``` inside our project root directory and create a new file in there called ```Token.js```
     ```bash
-    $ touch test/Token.js
+    $ mkdir test
+    $ touch Token.js
     ```
 - Write your tests in the file you just created.
-    
+  
+  ```
+const { expect } = require("chai");
+
+describe("Token contract", function () {
+  it("Deployment should assign the total supply of tokens to the owner", async function () {
+    const [owner] = await ethers.getSigners();
+
+    const hardhatToken = await ethers.deployContract("Token");
+
+    const ownerBalance = await hardhatToken.balanceOf(owner.address);
+    expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);
+  });
+});
+
+  ```  
 
 ### Running tests
 
