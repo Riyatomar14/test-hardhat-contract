@@ -44,3 +44,61 @@ npm install --save-dev hardhat
 npx hardhat init
 ```
 ![image](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/812e987b-7d3b-407c-a80b-d21437624ca7)
+
+- Install the Hardhat plugin for ethers.js, we will use recommended plugins here
+    ```bash
+    $ npm install --save-dev @nomicfoundation/hardhat-toolbox
+    ```
+- Add the following lines to `hardhat.config.js`
+    ```javascript
+    require("@nomicfoundation/hardhat-toolbox");
+    ```
+    - wchich will look like this
+
+        ![alt text](image.png)
+
+## Writing and compiling contracts
+
+
+### Writing contracts
+
+- Create a new contract file in the `contracts/` directory
+    ```bash
+    $ touch contracts/Token.sol
+    ```
+- Write your contract in the file you just created.
+    - [Sample contract](contracts/Token.sol)
+
+### Compiling contracts
+
+- Run the following command to compile your contracts
+    ```bash
+    $ npx hardhat compile
+    Compiled 1 Solidity file successfully (evm target: paris).
+    ```
+    
+## Testing contracts
+
+### Writing tests
+
+- Create a new test file in the `test/` directory
+    ```bash
+    $ touch test/Token.js
+    ```
+- Write your tests in the file you just created.
+    - [Sample test](test/Token.js)
+
+### Running tests
+
+- Run the following command to run your tests
+    ```bash
+    $ npx hardhat test
+    ```
+    - which will look like this
+
+        ![alt text](image-2.png)
+    
+## Deploying contracts to live network
+
+- To deploy your contracts to a live network, you need to create a new network in the `hardhat.config.js` file.
+    - [Sample hardhat.config.js](hardhat.config.js)
