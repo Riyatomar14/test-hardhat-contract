@@ -43,7 +43,7 @@ npm install --save-dev hardhat
 ```
 npx hardhat init
 ```
-![image](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/812e987b-7d3b-407c-a80b-d21437624ca7)
+![Screenshot 2024-04-15 230154](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/62c7afd6-ba7b-43fb-b86f-8bb2b937ac26)
 
 - Install the Hardhat plugin for ethers.js, we will use recommended plugins here
     ```bash
@@ -78,7 +78,8 @@ npx hardhat init
     $ npx hardhat compile
     Compiled 1 Solidity file successfully (evm target: paris).
     ```
-    
+![Screenshot 2024-04-15 230230](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/714c7127-7e03-4bbe-9aa7-cb03bd49c899)
+ 
 ## Testing contracts
 
 ### Writing tests
