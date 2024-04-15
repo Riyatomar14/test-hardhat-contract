@@ -65,10 +65,11 @@ npx hardhat init
 
 * Start by creating a new directory called ``` contracts ``` and create a file inside the directory called ``` Token.sol ```
     ```bash
-    $ touch contracts/Token.sol
+    $ mkdir contracts
+    $ sudo vi Token.sol
     ```
 - Write your contract in the file you just created.
-  
+   
 
 ### Compiling contracts
 
