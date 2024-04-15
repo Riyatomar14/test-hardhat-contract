@@ -1,0 +1,1 @@
+# test-hardhat-contract
