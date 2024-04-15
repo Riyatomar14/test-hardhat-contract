@@ -125,13 +125,13 @@ describe("Token contract", function () {
   ```
   const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
-const TokenModule = buildModule("TokenModule", (m) => {
+  const TokenModule = buildModule("TokenModule", (m) => {
   const token = m.contract("Token");
 
   return { token };
-});
+  });
 
-module.exports = TokenModule;
+  module.exports = TokenModule;
   ```
 
 ![Screenshot 2024-04-15 220152](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/4f7b0408-a9a8-4291-a9cd-91a5deb0e020) 
