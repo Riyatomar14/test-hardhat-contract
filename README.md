@@ -43,3 +43,4 @@ npm install --save-dev hardhat
 ```
 npx hardhat init
 ```
+![image](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/812e987b-7d3b-407c-a80b-d21437624ca7)
