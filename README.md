@@ -95,8 +95,8 @@ npx hardhat init
     $ npx hardhat test
     ```
     - which will look like this
-
-     
+![Screenshot 2024-04-15 220004](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/3f2002d7-2546-4fe6-b9ff-35e82271ef1a)
+![Screenshot 2024-04-15 220152](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/4f7b0408-a9a8-4291-a9cd-91a5deb0e020)
     
 ## Deploying contracts to live network
 
