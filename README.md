@@ -63,12 +63,12 @@ npx hardhat init
 
 ### Writing contracts
 
-- Create a new contract file in the `contracts/` directory
+* Start by creating a new directory called ``` contracts ``` and create a file inside the directory called ``` Token.sol ```
     ```bash
     $ touch contracts/Token.sol
     ```
 - Write your contract in the file you just created.
-    
+  
 
 ### Compiling contracts
 
