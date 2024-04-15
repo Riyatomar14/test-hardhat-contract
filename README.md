@@ -91,7 +91,7 @@ npx hardhat init
     ```
 - Write your tests in the file you just created.
   
-  ```
+```
 const { expect } = require("chai");
 
 describe("Token contract", function () {
@@ -104,8 +104,7 @@ describe("Token contract", function () {
     expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);
   });
 });
-
-  ```  
+```  
 
 ### Running tests
 
