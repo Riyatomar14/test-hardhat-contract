@@ -307,4 +307,19 @@ which look like this,
 
   module.exports = TokenModule;
   ```
+![Screenshot 2024-04-17 220122](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/2f648a08-c919-47bc-8299-97aaca8a4673)
+
+# boiler plate project
+
+```
+cd hardhat-boilerplate
+npm install
+```
+
+```
+npx hardhat node
+```
+![Screenshot 2024-04-17 220331](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/33ba479c-596f-46de-9043-e3304e42c5aa)
+
+![Screenshot 2024-04-17 220352](https://github.com/Riyatomar14/test-hardhat-contract/assets/143107173/f4efb8e7-4599-47eb-9728-97bd644281e6)
 
